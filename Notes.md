@@ -40,6 +40,12 @@ https://nodejs.org/dist/latest-v6.x/docs/api/
   * Functions in the _global_ namespace do not need to be prefixed
     with `global.`
 * `require()` = used to bring in modules
+* `process` = works with currently running process
+  * `process.argv` = start arguments
+  * `process.stdout` = Standard stream, includes `.stderr`
+  * `process.exit()` = quit the application
+  * `process.on('exit', callback)` = final method executed prior to exiting
+  * `process.stdin.on('data', callback)` = handler for data arriving on STDIN
 
 ### Variables
 
