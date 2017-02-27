@@ -1,0 +1,10 @@
+*~
+*#
+.#*
+
+.Rhistory
+.Rproj.user
+
+## Compressed course files
+
+*.zip
